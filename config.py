@@ -1,3 +1,1 @@
-TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-
-# يمكنك إضافة إعدادات أخرى هنا لاحقاً
+BOT_TOKEN = "8642748360:AAGVeZWyFDFSBJy3JkdInhRlvDXnGNe0_A0"
