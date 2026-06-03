@@ -4,9 +4,9 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 from config import TELEGRAM_BOT_TOKEN
-from utils.pdf_extractor import extract_text_from_pdf
-from utils.docx_extractor import extract_text_from_docx
-from utils.question_parser import parse_mcq_questions
+from pdf_extractor import extract_text_from_pdf
+from docx_extractor import extract_text_from_docx
+from question_parser import parse_mcq_questions
 
 # إعداد التسجيل (Logging)
 logging.basicConfig(
